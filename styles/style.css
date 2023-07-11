@@ -196,7 +196,7 @@ text-align: center;
 .insta_img_div{
     display: flex;
     justify-content: space-around;
-    margin-bottom:100px;
+    margin-bottom:50px;
    
 }
 .insta_img img{
@@ -237,5 +237,23 @@ text-align: center;
     color: #FFFFFF;
 }
 /*footer secton */
-
-
+.footersection{
+margin: 50px 0px;
+    padding: 0px;
+    background-color: #111010;
+   color: #FFFFFF;
+   height: 300px;
+ text-align: center;
+}
+.footersection h1{
+font-size: 35px;
+padding-top: 100px;
+padding-bottom: 24px;
+}
+.footersection span{
+    color:#E55473;
+}
+.smal_para{
+    padding-top: 24px;
+    opacity: 40%;
+}
