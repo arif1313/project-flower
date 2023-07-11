@@ -137,6 +137,7 @@ text-align: center;
    align-items: center;
    justify-content: space-between;
    height: 300px;
+   margin-bottom: 50px;
 }
 .hot_deals_img img{
     width: 150px;
