@@ -1,4 +1,5 @@
 
+/*header style*/
 *{
     padding: 0px;
     margin: 0px;
@@ -20,7 +21,6 @@ justify-content: space-around;
     margin-right: 97px;
  
 }
-
 .banarheader{
     width: 450px;
    
@@ -50,8 +50,92 @@ justify-content: space-around;
     text-align: center;
     font-size: 20px;
     font-weight: 700px;
+}
+/*main style */
+.three_img_section{
+    display: flex;
+}
+.main_section{
+    margin: 50px 200px;
+}
+.main_tile{
+    padding: 24px 0px;
+}
+.tile_bar{
+padding-bottom: 60px;
+text-align: center;
+}
+.img_one{
+    background-color:  rgba(167, 33, 98, 0.15);
+    height: 350px;
+    width: 400px;
+    position: relative;
+    border-radius: 300px 300px 0px 0px;
+}
+.img_two{
+    background-color: rgba(5, 151, 160, 0.15);
+    height: 350px;
+    width: 400px;
+    position: relative;
+    border-radius: 300px 300px 0px 0px;
+    margin: 0px 24px;
+}
+.img_three{
+   background-color: rgba(71, 125, 17, 0.15);
+    height: 350px;
+    width: 400px;
+    position: relative;
+    border-radius: 300px 300px 0px 0px;
+}
+.img_one img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.img_three img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left:10px;
+}
+.img_two img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left:30px;
+
+}
+.flower_name{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 40px;
+    text-decoration: underline;
+}
+.help_part_div{
+   padding-top: 50px;
+   align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
    
-  
-
-
+}
+.icon img{
+    height: 40px;
+    width: 40px;
+}
+.help_text{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.help_section{
+    height: 150px;
+    background-color: rgba(39, 39, 39, 0.05);
 }
