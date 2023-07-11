@@ -65,53 +65,41 @@ justify-content: space-around;
 padding-bottom: 60px;
 text-align: center;
 }
-.img_one{
+.img_div{
+    height: 350px;
+    width: 400px;
+    position: relative;
+    border-radius: 300px 300px 0px 0px;
+
+}
+#img_one{
     background-color:  rgba(167, 33, 98, 0.15);
-    height: 350px;
-    width: 400px;
-    position: relative;
-    border-radius: 300px 300px 0px 0px;
+   
 }
-.img_two{
+#img_two{
     background-color: rgba(5, 151, 160, 0.15);
-    height: 350px;
-    width: 400px;
-    position: relative;
-    border-radius: 300px 300px 0px 0px;
-    margin: 0px 24px;
+   
 }
-.img_three{
+#img_three{
    background-color: rgba(71, 125, 17, 0.15);
-    height: 350px;
-    width: 400px;
-    position: relative;
-    border-radius: 300px 300px 0px 0px;
+  
 }
-.img_one img{
+.three_img_section img{
+
     width: 250px;
     height: 300px;
     position: absolute;
     left: 0;
     bottom: 0;
+    padding-left: 20px;
+    
+}
+.img_divt{
+   
+    margin: 0px 10px;
 
 }
-.img_three img{
-    width: 250px;
-    height: 300px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding-left:10px;
-}
-.img_two img{
-    width: 250px;
-    height: 300px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding-left:30px;
 
-}
 .flower_name{
     display: flex;
     justify-content: space-around;
